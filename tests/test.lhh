@@ -1,0 +1,258 @@
+http://www.advogato.org/
+
+GET / HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/faq.html
+If-None-Match: "5M92gdY6JlFwZTO/kloDPw=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:03 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=500
+Etag: "5M92gdY6JlFwZTO/kloDPw=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:03 GMT
+----------------------------------------------------------
+http://www.advogato.org/article/
+
+GET /article/ HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/
+If-None-Match: "UaNqmrIwHwBOZ/A9AEtPig=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:04 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=499
+Etag: "UaNqmrIwHwBOZ/A9AEtPig=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/article/
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:05 GMT
+----------------------------------------------------------
+http://www.advogato.org/acct/
+
+GET /acct/ HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/article/
+If-None-Match: "CMn3zlsd7yYCG24Hd5ac+Q=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:06 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=498
+Etag: "CMn3zlsd7yYCG24Hd5ac+Q=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/acct/
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:06 GMT
+----------------------------------------------------------
+http://www.advogato.org/person/
+
+GET /person/ HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/acct/
+If-None-Match: "bJb7JbxWMKgkblQ2DR4BUQ=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:07 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=497
+Etag: "bJb7JbxWMKgkblQ2DR4BUQ=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/person/
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:07 GMT
+----------------------------------------------------------
+http://www.advogato.org/proj/
+
+GET /proj/ HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/person/
+If-None-Match: "iefudnzb5EZZTUENfmw09w=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:08 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=496
+Etag: "iefudnzb5EZZTUENfmw09w=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/proj/
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:09 GMT
+----------------------------------------------------------
+http://www.advogato.org/faq.html
+
+GET /faq.html HTTP/1.1
+Host: www.advogato.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/proj/
+If-None-Match: "9+eDkUfjlczxhi77xy86FA=="
+
+HTTP/1.x 304 Not Modified
+Date: Sat, 09 Jun 2007 18:52:11 GMT
+Server: Apache/2.0.52 (CentOS)
+Connection: Keep-Alive
+Keep-Alive: timeout=15, max=495
+Etag: "9+eDkUfjlczxhi77xy86FA=="
+----------------------------------------------------------
+http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+
+GET /coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.advogato.org/faq.html
+Cookie: SID=DQAAAHcAAAAvydIDVo7mab3si3ctsxwT7Ft42jzP8LHFX1nzv-ZVe3egKp3BtcNlis8ZtoFvuKH3b1_u6afnaeEbU1eTm5eD65o0F8NQwawyLs6TEqpkIjyPNEC4ZgD0wyeW_jnSI7gimJqHnSCVE8sRlKhVGZAz53Xwqc0TdRDPjiEXtkVtlQ; PREF=ID=9143c1f44a49d130:TM=1178768457:LM=1180208638:DV=AA:GM=1:S=S7v738Ivsh_KPd07; S=gmail=KA106XBaKNLAxItEZOzsJw:gmail_yj=fnUzo_dbgW0MOWRpSXxZMw:gmproxy=KvGM352l9bY:gmproxy_yj=WBOtizsXX1Q:gmproxy_yj_sub=1GrCYSX94PQ; TZ=240
+
+HTTP/1.x 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Server: pfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 390
+Date: Sat, 09 Jun 2007 18:52:11 GMT
+----------------------------------------------------------

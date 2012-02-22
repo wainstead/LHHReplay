@@ -1,0 +1,163 @@
+There is a small example test included with lhhreplay.pl that hits
+five links on advogato.org.
+
+This script needs Test::WWW::Mechanize, which requires a lot of
+modules itself. See http://search.cpan.org/.
+
+A sample run, using the test script, would look something like this:
+
+harmonika:~/cvs/pgms/perl swain$ tar -xzvf lhhreplay.tar.gz lhhreplay/
+lhhreplay/
+lhhreplay/lhhreplay.pl
+lhhreplay/README
+lhhreplay/tests/
+lhhreplay/tests/test.lhh
+harmonika:~/cvs/pgms/perl swain$ cd lhhreplay
+harmonika:~/cvs/pgms/perl/lhhreplay swain$ ./lhhreplay.pl tests/test.lhh
+Doing lhh script: tests/test.lhh
+going for: http://www.advogato.org/
+ok 1 - returned OK status: 200  (step 0)
+ok 2 - Server returned some text (step 0)
+ok 3 - No fatal errors (step 0)
+ok 4 - No parse errors (step 0)
+ok 5 - No mysql errors (step 0)
+ok 6 - No out of bounds errors (step 0)
+ok 7 - No login errors (step 0)
+ok 8 - No ez_sql errors (step 0)
+ok 9 - No Util::dumps (step 0)
+ok 10 - No PHP warnings (step 0)
+ok 11 - No 'An error has occurred' (step 0)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 12 - returned OK status: 200  (step 1)
+ok 13 - Server returned some text (step 1)
+ok 14 - No fatal errors (step 1)
+ok 15 - No parse errors (step 1)
+ok 16 - No mysql errors (step 1)
+ok 17 - No out of bounds errors (step 1)
+ok 18 - No login errors (step 1)
+ok 19 - No ez_sql errors (step 1)
+ok 20 - No Util::dumps (step 1)
+ok 21 - No PHP warnings (step 1)
+ok 22 - No 'An error has occurred' (step 1)
+going for: http://www.advogato.org/article/
+ok 23 - returned OK status: 200  (step 2)
+ok 24 - Server returned some text (step 2)
+ok 25 - No fatal errors (step 2)
+ok 26 - No parse errors (step 2)
+ok 27 - No mysql errors (step 2)
+ok 28 - No out of bounds errors (step 2)
+ok 29 - No login errors (step 2)
+ok 30 - No ez_sql errors (step 2)
+ok 31 - No Util::dumps (step 2)
+ok 32 - No PHP warnings (step 2)
+ok 33 - No 'An error has occurred' (step 2)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 34 - returned OK status: 200  (step 3)
+ok 35 - Server returned some text (step 3)
+ok 36 - No fatal errors (step 3)
+ok 37 - No parse errors (step 3)
+ok 38 - No mysql errors (step 3)
+ok 39 - No out of bounds errors (step 3)
+ok 40 - No login errors (step 3)
+ok 41 - No ez_sql errors (step 3)
+ok 42 - No Util::dumps (step 3)
+ok 43 - No PHP warnings (step 3)
+ok 44 - No 'An error has occurred' (step 3)
+going for: http://www.advogato.org/acct/
+ok 45 - returned OK status: 200  (step 4)
+ok 46 - Server returned some text (step 4)
+ok 47 - No fatal errors (step 4)
+ok 48 - No parse errors (step 4)
+ok 49 - No mysql errors (step 4)
+ok 50 - No out of bounds errors (step 4)
+ok 51 - No login errors (step 4)
+ok 52 - No ez_sql errors (step 4)
+ok 53 - No Util::dumps (step 4)
+ok 54 - No PHP warnings (step 4)
+ok 55 - No 'An error has occurred' (step 4)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 56 - returned OK status: 200  (step 5)
+ok 57 - Server returned some text (step 5)
+ok 58 - No fatal errors (step 5)
+ok 59 - No parse errors (step 5)
+ok 60 - No mysql errors (step 5)
+ok 61 - No out of bounds errors (step 5)
+ok 62 - No login errors (step 5)
+ok 63 - No ez_sql errors (step 5)
+ok 64 - No Util::dumps (step 5)
+ok 65 - No PHP warnings (step 5)
+ok 66 - No 'An error has occurred' (step 5)
+going for: http://www.advogato.org/person/
+ok 67 - returned OK status: 200  (step 6)
+ok 68 - Server returned some text (step 6)
+ok 69 - No fatal errors (step 6)
+ok 70 - No parse errors (step 6)
+ok 71 - No mysql errors (step 6)
+ok 72 - No out of bounds errors (step 6)
+ok 73 - No login errors (step 6)
+ok 74 - No ez_sql errors (step 6)
+ok 75 - No Util::dumps (step 6)
+ok 76 - No PHP warnings (step 6)
+ok 77 - No 'An error has occurred' (step 6)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 78 - returned OK status: 200  (step 7)
+ok 79 - Server returned some text (step 7)
+ok 80 - No fatal errors (step 7)
+ok 81 - No parse errors (step 7)
+ok 82 - No mysql errors (step 7)
+ok 83 - No out of bounds errors (step 7)
+ok 84 - No login errors (step 7)
+ok 85 - No ez_sql errors (step 7)
+ok 86 - No Util::dumps (step 7)
+ok 87 - No PHP warnings (step 7)
+ok 88 - No 'An error has occurred' (step 7)
+going for: http://www.advogato.org/proj/
+ok 89 - returned OK status: 200  (step 8)
+ok 90 - Server returned some text (step 8)
+ok 91 - No fatal errors (step 8)
+ok 92 - No parse errors (step 8)
+ok 93 - No mysql errors (step 8)
+ok 94 - No out of bounds errors (step 8)
+ok 95 - No login errors (step 8)
+ok 96 - No ez_sql errors (step 8)
+ok 97 - No Util::dumps (step 8)
+ok 98 - No PHP warnings (step 8)
+ok 99 - No 'An error has occurred' (step 8)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 100 - returned OK status: 200  (step 9)
+ok 101 - Server returned some text (step 9)
+ok 102 - No fatal errors (step 9)
+ok 103 - No parse errors (step 9)
+ok 104 - No mysql errors (step 9)
+ok 105 - No out of bounds errors (step 9)
+ok 106 - No login errors (step 9)
+ok 107 - No ez_sql errors (step 9)
+ok 108 - No Util::dumps (step 9)
+ok 109 - No PHP warnings (step 9)
+ok 110 - No 'An error has occurred' (step 9)
+going for: http://www.advogato.org/faq.html
+ok 111 - returned OK status: 200  (step 10)
+ok 112 - Server returned some text (step 10)
+ok 113 - No fatal errors (step 10)
+ok 114 - No parse errors (step 10)
+ok 115 - No mysql errors (step 10)
+ok 116 - No out of bounds errors (step 10)
+ok 117 - No login errors (step 10)
+ok 118 - No ez_sql errors (step 10)
+ok 119 - No Util::dumps (step 10)
+ok 120 - No PHP warnings (step 10)
+ok 121 - No 'An error has occurred' (step 10)
+going for: http://www.google.com/coop/cse/brand?form=searchbox_001849165863570039063%3Acqpkt1u7yfe
+ok 122 - returned OK status: 200  (step 11)
+ok 123 - Server returned some text (step 11)
+ok 124 - No fatal errors (step 11)
+ok 125 - No parse errors (step 11)
+ok 126 - No mysql errors (step 11)
+ok 127 - No out of bounds errors (step 11)
+ok 128 - No login errors (step 11)
+ok 129 - No ez_sql errors (step 11)
+ok 130 - No Util::dumps (step 11)
+ok 131 - No PHP warnings (step 11)
+ok 132 - No 'An error has occurred' (step 11)
+1..132
+harmonika:~/cvs/pgms/perl/lhhreplay swain$ 
