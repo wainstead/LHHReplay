@@ -1,3 +1,8 @@
+This Perl script operates on the output of **Live HTTP Headers**,
+which is not compatible with modern versions of Firefox.
+
+https://addons.mozilla.org/en-US/firefox/addon/live-http-headers/
+
 There is a small example test included with lhhreplay.pl that hits
 five links on advogato.org.
 
